@@ -16,9 +16,7 @@ python map2decibel_app_V_BLIND.py
  
 ## Limitations
  
-- Raw dB predictions anchored to European traffic defaults;
-  use percentile rank for non-European cities
-- Not suitable for regulatory noise assessment
-- OSM data quality varies across regions
+- Not meant to be replacement of real sensors. 
+- OSM data quality varies across regions.
 *Paper under blind review.*
 
