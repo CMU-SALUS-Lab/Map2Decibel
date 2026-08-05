@@ -1,3 +1,24 @@
 # Map2Decibel
 
-See map2decibel_demo.ipynb for interactive notebook after cloning. Use the model from the release page. 
+TLDR: See map2decibel_demo.ipynb for interactive notebook after cloning. Use the model from the release page. 
+
+# About
+
+This is our attempt to do street-level road noise prediction from OpenStreetMap morphology. It predicts L_den (day-evening-night noise level, dBA) for any city using only freely available OpenStreetMap geometry WITHOUT any traffic counts, no sensors, no specialist acoustic software.
+
+
+## Local run
+ 
+```bash
+pip install -r requirements.txt
+python map2decibel_app_V_BLIND.py
+```
+ 
+## Limitations
+ 
+- Raw dB predictions anchored to European traffic defaults;
+  use percentile rank for non-European cities
+- Not suitable for regulatory noise assessment
+- OSM data quality varies across regions
+*Paper under blind review.*
+
