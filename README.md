@@ -19,5 +19,5 @@ pip install -r requirements.txt
 - OSM data quality varies across regions.
 
 
-*Paper under blind review.*
+*Paper under blind review.* --- https://anonymous.4open.science/r/Map2Decibel-7641
 
