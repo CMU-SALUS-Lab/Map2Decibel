@@ -11,7 +11,6 @@ This is our attempt to do street-level road noise prediction from OpenStreetMap 
  
 ```bash
 pip install -r requirements.txt
-python map2decibel_app_V_BLIND.py
 ```
  
 ## Limitations
